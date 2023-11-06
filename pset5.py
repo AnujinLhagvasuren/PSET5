@@ -13,7 +13,7 @@ else:
     mood = "bad"
 
 st.write("I feel", mood)
-image_path = f'images/{mood}.jpg'
+image_path = f"images/{mood}.jpg"
 st.image(Image.open(image_path))
 
 
