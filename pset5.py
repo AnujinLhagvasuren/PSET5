@@ -1,6 +1,6 @@
 from PIL import Image
 import streamlit as st
-
+st.title('how do you feel today')
 
 feeling = st.slider('How are you today?', 1, 10, 5)
 
