@@ -12,5 +12,8 @@ elif feeling == 5:
     
 st.write("I feel",mood)
 
+from PIL import Image
+
+st.image(Image.open(f'images/{mood}.jpg'))
 
 
