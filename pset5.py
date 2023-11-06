@@ -1,5 +1,6 @@
+from PIL import Image
 import streamlit as st
-st.slider
+
 
 feeling = st.slider('How are you today?', 1, 10, 5)
 
@@ -12,7 +13,6 @@ elif feeling == 5:
     
 st.write("I feel",mood)
 
-from PIL import Image
 
 st.image(Image.open(f'images/{mood}.jpg'))
 
